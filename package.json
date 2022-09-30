@@ -1,0 +1,30 @@
+{
+  "name": "Sample i18n",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "playwright test",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.25.0",
+    "@sveltejs/adapter-static": "next",
+    "@sveltejs/kit": "next",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.16.0",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "postcss": "^8.4.14",
+    "postcss-load-config": "^4.0.1",
+    "svelte": "^3.44.0",
+    "svelte-preprocess": "^4.10.7",
+    "tailwindcss": "^3.1.5",
+    "vite": "^3.1.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "sveltekit-i18n": "^2.2.2"
+  }
+}
